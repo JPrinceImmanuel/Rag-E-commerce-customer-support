@@ -1,4 +1,4 @@
-# E-Commerce Customer Support AI
+# E-Commerce Customer Support AI using RAG
 
 A customer support AI agent for e-commerce using Retrieval Augmented Generation (RAG) with LangChain and Chainlit.
 
