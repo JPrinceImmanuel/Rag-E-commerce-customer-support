@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: customer-supprt-service
+  labels:
+    app: customer-support-app
+spec:
+  selector:
+    app: customer-support-app
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 8000
+      nodePort: 32000
+  type: NodePort
