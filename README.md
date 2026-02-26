@@ -31,7 +31,7 @@ A customer support AI agent for e-commerce using Retrieval Augmented Generation 
 
 1. Run the application:
    ```
-   python customer_support_agent.py
+   chainlit run customer_support_agent.py
    ```
 2. Open your browser at http://localhost:8000
 
